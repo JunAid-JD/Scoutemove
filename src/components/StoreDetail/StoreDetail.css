@@ -1,0 +1,440 @@
+.storedetail{
+    padding: 2rem 5rem;
+
+    display: grid;
+    /* grid-template-rows: 1fr 1fr; */
+    grid-template-columns: 1fr 1fr;
+
+    gap: 3rem;
+    
+}
+
+.col1 .detailimg{
+            width: 50vw;
+}
+.col1 .detailimg>img{
+    width: 100%;
+}
+
+.col1 .productname{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 0;
+}
+.col1 .productname h1{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.col1 .productname .smimg{
+        display: flex;
+            align-items: center;
+            gap: 1rem;
+
+}
+.col1 .productname .smimg>img{
+    width: 100%;
+}
+
+.col1 .productdetail{
+    margin-top: 2rem;
+}
+
+.col1 .productdetail .sizeprice{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+     gap: 4rem;
+}
+.col1 .productdetail .sizeprice .size{
+
+}
+.col1 .productdetail .sizeprice .size>h5{
+    font-size: 15px;
+    margin-bottom: .4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col1 .productdetail .sizeprice .size>h5 a{
+    color: #DE1D3E;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px;
+        text-decoration-line: underline;
+}
+.col1 .productdetail .sizeprice .size .sizes{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.col1 .productdetail .sizeprice .size .sizes span{
+border-radius: 6px;
+    background: #F3F3F3;
+    color: #3B3C4A;
+    font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        padding: .2rem 1rem;
+        cursor: pointer;
+}
+.col1 .productdetail .sizeprice .size .sizes .sizeActive{
+    background: #FFB900;
+    color: white;
+}
+.col1 .productdetail .sizeprice .price{
+display: flex;
+align-items: center;
+gap: .5rem;
+}
+
+.col1 .productdetail .sizeprice .price h5{
+    font-size: 15px;
+        /* margin-bottom: .4rem; */
+}
+
+.col1 .productdetail .sizeprice .price .priceimg{
+ display: flex;
+ align-items: center;
+ gap: .5rem;
+}
+.col1 .productdetail .sizeprice .price .priceimg img{
+    width: 25px;
+}
+
+.col1 .productdetail ul{
+    margin-top: 1rem;
+    padding-left: 1rem;
+}
+
+
+.col1 .productdetail ul li{
+ color: #3B3C4A;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+.col2{
+
+}
+.col2>form{
+width: 437px;
+} 
+
+.col2>form h3{
+font-size: 20px;
+font-weight: 600;
+
+padding: .5rem 0;
+}
+
+.col2>form p {
+    font-size: 13px;
+    color: rgba(51, 51, 57, 0.6);
+     padding-bottom: 1rem;
+}
+
+.col2>form label{
+    font-size: 15px;
+    font-weight: 600;
+    display: block;
+}
+
+
+
+.col2>form input,select{
+    background-color: #F3F3F3;
+   border: none;
+   outline: none;
+   height: 35px;
+   width: 100%;
+   color: rgba(153, 153, 153, 1);
+   margin: 1rem 0;
+   text-indent: 1rem;
+}
+.col2>form select {
+    color: #000;
+}
+.col2>form .addressName {
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid #ECECEC;
+    outline: none;
+    height: 35px;
+    width: 100%;
+    color: rgba(153, 153, 153, 1);
+    margin: 1rem 0;
+    text-indent: 1rem;
+}
+
+.col2 .formbtn{
+        display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: .5rem 0;
+}
+
+.col2 .formbtn>button{
+    border-radius: 5px;
+        background: #DE1D3E;
+        color: white;
+        border: none;
+        padding: 7.2px 16px;
+}
+
+
+
+
+.col3{
+border-top: 1px solid rgba(239, 239, 239, 1);
+grid-column: span 2;
+padding: 1rem 0;
+} 
+
+.col3 .saveaddress{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.col3 .saveaddress h5{
+    font-size: 15px;
+    font-weight: 600;
+}
+.col3 .saveaddress>svg{
+color: rgba(222, 29, 62, 1);
+}
+
+
+.col3 .savedaddresscards{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   gap: 2rem;
+   padding-top: 1rem;
+}
+
+
+.col3 .savedaddresscards>.card{
+    background-color: rgba(160, 160, 160, 0.1);
+    border-radius: 9px;
+width: 250px;
+}
+
+.col3 .savedaddresscards>.bgActive{
+  background-color: rgba(255, 185, 0, 0.06);
+}
+
+.col3 .savedaddresscards>.card>.cardheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .7rem;
+    background-color: transparent;
+}
+
+.col3 .savedaddresscards>.card>.cardheader .orange{
+    color: #936037;
+}
+
+.col3 .savedaddresscards>.card>.cardheader>h5{
+   font-size: 14px;
+   font-weight: 600;
+}
+
+.col3 .savedaddresscards>.card>.cardheader>svg{
+cursor: pointer;
+}
+.col3 .savedaddresscards>.card>.cardheader>.redsvg{
+    color: rgba(222, 29, 62, 1);
+}
+
+.col3 .savedaddresscards>.card>.cardheader>.black {
+    color: rgba(0, 0, 0, 1);
+}
+
+.col3 .savedaddresscards>.card>.cardbody{
+    border-top: 1px solid rgba(233, 233, 233, 1);
+    background-color: tsransparent;
+
+    display: none;
+}
+.col3 .savedaddresscards>.card>.showCardBody{
+    display: block ;
+}
+
+.col3 .savedaddresscards>.card>.cardbody>.content {
+    padding: .7rem;
+}
+.col3 .savedaddresscards>.card>.cardbody>.content>h5{
+    font-size: 14px;
+        font-weight: 600;
+}
+.col3 .savedaddresscards>.card>.cardbody>.content>p{
+        font-size: 13px;
+            color: rgba(51, 51, 57, 0.6);
+            padding: .5rem 0;
+}
+.col3 .savedaddresscards>.card>.cardbody>button {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+border-radius: 9px;
+    background: #DE1D3E;
+   width: 100%;
+   padding: 15px 0;
+   border: none;
+   color: #FFF;
+}
+
+
+
+.col3 .savedaddresscards>.card>.cardbody>button>img{
+    width: 16.721px;
+    padding: 0 .5rem;
+}
+
+
+
+
+/* .colHandlerBtn{
+display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.colHandlerBtn>button {
+    border-radius: 5px;
+    background: #DE1D3E;
+    color: white;
+    border: none;
+    padding: 7.2px 16px;
+    width: 100%;
+}
+ */
+
+
+
+
+
+
+
+@media screen and (max-width:1200px) {
+    .col1 .detailimg {
+            width: 41vw;
+        }
+        
+}
+
+@media screen and (max-width:1000px) {
+   .col2{
+    width: 300px;
+   }
+   .col2>form{
+    width: 100%;
+   }
+    .col2>form p {
+            padding-bottom: 0.3rem;
+    }
+        .col2>form input,
+        select {
+            margin: .3rem 0;
+            height: 30px;
+        }
+.col1 .productdetail ul li {
+    font-size: 12px;
+}
+.col1 .productname h1 {
+    font-size: 20px;
+}
+.col1 .productname .smimg {
+    gap: .5rem;
+}
+.col1 .productname .smimg>img {
+    width: 50px;
+}
+
+}
+
+@media screen and (max-width:850px) {
+.storedetail {
+    padding: 2rem 3rem;
+}
+.col3 .savedaddresscards {
+    justify-content: start;
+}
+
+}
+
+
+
+@media screen and (max-width:768px) {
+    .storedetail{
+        gap: 1.5rem;
+    }
+    .col1,.col2{
+        grid-column: span 2;
+    }
+        .col1 .detailimg {
+            width: 100%;
+        }
+        .col2{
+           width: auto;
+           order: 3;
+        }
+                .col3 .savedaddresscards {
+                    justify-content: flex-start;
+                }
+
+         .colHandlerBtn {
+            display: flex;
+         }
+
+                .colHandlerBtn>button {
+                    width: auto;
+                }
+
+                 
+}
+
+
+@media screen and (max-width:630px) {
+    .col3 .savedaddresscards>.card {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:500px) {
+.col1 .productdetail .sizeprice .price {
+        display: none;
+    }
+}
+
+@media screen and (max-width:450px) {
+  
+        .col2 .formbtn {
+            padding: 1.5rem 0;
+        }
+                .col2 .formbtn>button {
+                    width: 100%;
+                }
+
+                                .colHandlerBtn>button {
+                                    width: 100%;
+                                }
+}

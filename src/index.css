@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid; */
+  font-family: 'Inter', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: unset;
+}
+
+
+.p-5{
+  padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+input:focus,select:focus,textarea:focus{
+   color: black !important;
+}
+
+
+@media screen and (max-width:600px) {
+  .p-5 {
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+}
+
+@media screen and (max-width:430px) {
+  .p-5 {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+}

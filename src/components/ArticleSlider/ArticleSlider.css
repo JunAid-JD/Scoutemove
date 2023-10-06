@@ -1,0 +1,38 @@
+.articleSlider h5{
+    font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        color: #000;
+}
+
+.articleSlider .articlesliderSection{
+    padding-top: 0;
+}
+
+
+
+
+.viewmorebtn{
+border-radius: 10px;
+    border: 1px solid #DB133C;
+    display: flex;
+        padding: 10px 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: max-content;
+
+        font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            color: #DB133C;
+
+            cursor: pointer;
+
+            transition: .3s ease-in-out;
+}
+
+.viewmorebtn:hover{
+    background-color: #DB133C;
+    color: white;
+}

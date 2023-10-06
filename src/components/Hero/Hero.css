@@ -1,0 +1,468 @@
+/* ---------- Hero section --------- */
+.heroSection {
+    background: linear-gradient(rgba(0, 0, 0, 0.21), rgba(0, 0, 0, 0.21)), url(/public/img/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 510px;
+
+    padding-top: 3rem;
+        padding-bottom: 3rem;
+
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.heroSection>.left {
+    max-width: 624px;
+
+}
+
+.heroSection .left h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.heroSection .left h1 span {
+    color: #DE1D3E;
+    font-weight: 800;
+}
+
+.heroSection .left h1 b {
+    color: #FDB716;
+}
+
+.heroSection #searchboxonmobile {
+    display: none;
+}
+
+.heroSection .searchbox {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 5rem;
+}
+
+.heroSection .searchbox .search {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+
+    width: 412px;
+    height: 60px;
+    border-radius: 8px;
+    background: #FFF;
+
+    color: #999;
+    padding: 0 1rem;
+}
+
+.searchbox .search svg {
+    cursor: pointer;
+}
+
+.heroSection .searchbox .search svg {
+    border-right: 1px solid #D4D4D4;
+    padding: 0 .5rem;
+
+}
+
+.heroSection .searchbox input {
+    text-indent: .5rem;
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.heroSection .searchbox button {
+    width: 123px;
+    height: 60px;
+    border-radius: 8px;
+    background: #DE1D3E;
+    border: 1px solid #DE1D3E;
+
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.heroSection>.right{
+position: absolute;
+    right: 0;
+}
+
+.heroSection .right .temperatureSection{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.heroSection .right .temperatureSection .left{
+    display: flex;
+        align-items: center;
+        gap: 1rem;
+}
+.heroSection .right .temperatureSection .left h1{
+    color: #FFF;
+        text-align: center;
+        font-size: 63.342px;
+        font-style: normal;
+        font-weight: 400;
+        text-transform: uppercase;
+}
+
+.heroSection .right .temperatureSection .left .vector{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: .5rem;
+}
+
+.heroSection .right .temperatureSection .left .vector h3{
+    color: #FFF;
+        text-align: center;
+        font-size: 39.589px;
+        font-style: normal;
+        font-weight: 400;
+        text-transform: capitalize;
+}
+.heroSection .right .temperatureSection .left .vector img {
+width: 88.084px;
+}
+.heroSection .right .temperatureSection .left .vector button {
+    border-radius: 7.98px;
+        background: #FDB716;
+        padding: 2.969px 21.856px;
+
+        color: #342772;
+            text-align: center;
+                text-transform: capitalize;
+            font-size: 15.835px;
+            font-style: normal;
+            font-weight: 300;
+            border: 1px solid #FDB716;
+}
+
+
+.heroSection .right .temperatureSection .right{
+   width: 145px;
+}
+
+.heroSection .right .temperatureSection .right p{
+    color: #FFF;
+        font-size: 15.634px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        text-transform: uppercase;
+}
+
+
+
+
+.heroSection .right .tempboxsec{
+/* margin-right: -5rem; */
+    width: 500px;
+    /* border-radius: 39px; */
+  
+}
+
+.heroSection .right .temperatureBoxes{
+/* border-radius: 39.088px 0px 0px 39.088px; */
+    background: rgba(126, 126, 126, .5);
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    padding: 1rem;
+    /* margin-right: -5rem; */
+}
+
+.heroSection .right .temperatureBoxes .temperaturebox {
+border-radius: 48.86px;
+    background: transparent;
+    border: 1px solid #FFF;
+    color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+    width: 103.828px;
+        height: 241.858px;
+        cursor: pointer;
+
+
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+}
+
+.heroSection .right .temperatureBoxes  .darkbg{
+    background-color: #000;
+    border: 1px solid #000;
+}
+
+.heroSection .right .temperatureBoxes .temperaturebox p{
+    font-size: 14.658px;
+        font-style: normal;
+        font-weight: 500;
+}
+.heroSection .right .temperatureBoxes .temperaturebox h1 {
+    font-size: 48.86px;
+        font-style: normal;
+        font-weight: 700;
+}
+        .heroSection .right .temperatureBoxes .temperaturebox img {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* -------=================  Responsive ------------------============  */
+
+        @media screen and (max-width:1220px) {
+            .heroSection>.left{
+                width: 500px;
+            }
+        }
+
+
+@media screen and (max-width: 1100px){
+
+
+    .heroSection .right .tempboxsec {
+            width: 375px;
+        }
+
+ .heroSection>.left {
+    width: 400px;
+}
+
+.heroSection .left h1 {
+    font-size: 44px;
+}
+.heroSection .searchbox .search {
+        width: 290.333px;
+            height: 43.333px;
+}
+.heroSection .searchbox input {
+    font-size: 15px;
+}
+.heroSection .searchbox button {
+    width: 121px;
+    height: 43px;
+    font-size: 15px;
+}
+.heroSection .right .temperatureSection {
+    gap: 1rem;
+}
+
+
+.heroSection .right .temperatureSection .left .vector h3 {
+    font-size: 29.589px;
+}
+
+.heroSection .right .temperatureSection .left h1 {
+    font-size: 43.342px;
+}
+
+
+.heroSection .right .temperatureBoxes .temperaturebox {
+        width: 73.828px;
+            height: 180.858px;
+}
+.heroSection .right .temperatureBoxes .temperaturebox h1 {
+    font-size: 30.86px;
+}
+
+.heroSection .right .temperatureBoxes .temperaturebox p {
+    font-size: 14.658px;
+}
+
+}
+
+
+@media screen and (max-width: 950px) {
+    .heroSection {
+        height: 410px;
+    }
+    /* .heroSection{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4rem;
+    }
+        .heroSection .searchbox {
+            margin-top: 3rem;
+        } */
+
+                .heroSection .right .tempboxsec {
+                    width: 340px;
+                        margin-right: 0rem;
+                }
+.p-5 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+                .heroSection {
+                    gap: 1rem;
+                }
+
+                .heroSection>.left {
+                    width: 350px;
+                }
+          .heroSection .left h1 {
+              font-size: 30px;
+          }
+.heroSection .searchbox {
+    gap: .5rem;
+}
+.heroSection .searchbox .search {
+    width: 210.333px;
+    height: 43.333px;
+    gap: .5rem;
+}
+.heroSection .searchbox .search svg {
+    padding: 0;
+    padding-right: .5rem;
+}
+.heroSection .searchbox input {
+    font-size: 15px;
+}
+.heroSection .searchbox button {
+    width: 100px;
+    height: 43px;
+    font-size: 14px;
+}
+.heroSection .right .temperatureSection .left h1 {
+    font-size: 33.342px;
+}
+.heroSection .right .temperatureSection .left .vector h3 {
+    font-size: 22.589px;
+}
+.heroSection .right .temperatureSection .left .vector button {
+    padding: 2.969px 13.856px;
+    font-size: 13.835px;
+}
+.heroSection .right .temperatureSection .right p {
+
+    font-size: 13.634px;
+}
+.heroSection .right .temperatureBoxes .temperaturebox {
+    width: 65.828px;
+    height: 160.858px;
+}
+.heroSection .right .temperatureBoxes .temperaturebox p {
+    font-size: 10.658px;
+}
+.heroSection .right .temperatureBoxes .temperaturebox h1 {
+    font-size: 25.86px;
+}
+.heroSection .right .temperatureSection {
+    margin-bottom: 1rem;
+}
+
+.heroSection .right .temperatureBoxes {
+    margin-right: 0;
+    /* border-radius: 39.088px ; */
+}
+}
+
+
+@media screen and (max-width: 768px) {
+    .heroSection{
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 510px;
+    }
+        .heroSection .right{
+            position: unset;
+        }
+.heroSection .right .temperatureBoxes {
+    margin-right: 0;
+    /* border-radius: 39.088px; */
+}
+.heroSection .searchbox {
+    display: none ;
+}
+.heroSection #searchboxonmobile{
+    display: flex ;
+    margin-top: 1rem ;
+}
+}
+
+@media screen and (max-width: 430px){
+.heroSection{
+    height: 550px;
+}
+.heroSection>.left {
+    width: 350px;
+}
+
+/* .heroSection .left h1 {
+    font-size: 34px;
+} */
+.heroSection>.right {
+    width: 350px;
+}
+
+.heroSection .searchbox .search {
+    padding: 0 .5rem;
+}
+
+.heroSection .right .temperatureSection .left .vector h3 {
+    font-size: 24.589px;
+}
+
+.heroSection .right .temperatureSection .left .vector button {
+    font-size: 14.835px;
+}
+.heroSection .right .temperatureSection .left h1 {
+    font-size: 40.342px;
+}
+.heroSection .right .temperatureSection .right p {
+    font-size: 12px;
+}
+.heroSection .right .temperatureBoxes .temperaturebox p {
+    font-size: 10.658px;
+}
+.heroSection .right .temperatureBoxes .temperaturebox h1 {
+    font-size: 25.86px;
+}
+.searchbox  {
+    width: 100%;
+    gap: .5rem;
+}
+.searchbox .search {
+    padding: 0 .5rem;
+    width: 181px;
+}
+
+.searchbox button {
+    padding: 0.5rem;
+}
+}

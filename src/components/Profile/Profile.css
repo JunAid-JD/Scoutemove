@@ -1,0 +1,580 @@
+.profile {
+    padding: 2rem 5rem;
+}
+
+.profileSection {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.profileSection .left,
+.profileSection>.right {
+    width: 50%;
+}
+
+.profileSection .left .profileInfo {
+    padding: 1rem;
+    border-radius: 15px;
+    background: #FAFAFA;
+}
+
+.profileSection .left .profileInfo .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profileSection .left .profileInfo .header h5 {
+    color: #936037;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.profileSection .left .profileInfo .header button {
+    border-radius: 5px;
+    background: #DE1D3E;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 10px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.profileSection .left .profileInfo .user {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.profileSection .left .profileInfo .user h5 {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.profileSection .left .profileInfo .user .userimg {
+    position: relative;
+
+}
+
+.profileSection .left .profileInfo .user .userimg :nth-child(2) {
+    /* width: 100%; */
+width: 70px;
+height: 70px;
+border-radius: 50%;
+}
+
+.profileSection .left .profileInfo .user .userimg :last-child {
+    width: 20.875px;
+    position: absolute;
+    bottom: 8px;
+    right: 0;
+    cursor: pointer;
+}
+
+.profileSection .left .profileInfo .end {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.profileSection .left .profileInfo .end .score {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+
+.profileSection .left .profileInfo .end .score p {
+    color: rgba(51, 51, 57, 0.60);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.profileSection .left .profileInfo .end .score .coin {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+
+    color: #484848;
+    font-size: 16.6px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.profileSection .left .profileInfo .end .EditForget {
+    text-align: end;
+}
+
+.profileSection .left .profileInfo .end .EditForget p:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: .3rem;
+    margin-bottom: 10px;
+}
+
+.profileSection .left .profileInfo .end .EditForget p {
+    color: #DE1D3E;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+   cursor: pointer;
+}
+
+.profileSection .left .profileInfo .end .EditForget .green{
+        color: #936037;
+}
+
+.profileSection .left .profileForm {
+    border-radius: 15px;
+    background: #FAFAFA;
+    padding: 1.5rem 1rem;
+    margin-top: 1rem;
+}
+
+
+.profileSection .left .profileForm>.button{
+   display: flex;
+   align-items: center;
+   justify-content: end;
+   padding-top: 1rem;
+}
+.profileSection .left .profileForm>.button button{
+        border-radius: 5px;
+            background: #DE1D3E;
+            color: #FFF;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 600;
+            padding: 10px 16px;
+            border: none;
+            cursor: pointer;
+}
+
+/* 
+input[type="date"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+input[type="date"]::after {
+    content: "\1F4C6";
+    color: #DE1D3E;
+    font-size: 1em;
+    margin-left: 5px;
+    cursor: pointer;
+} */
+
+.profileSection .left .profileForm input[type="email"] {
+    background-color: rgba(243, 243, 243, 1);
+
+    color: #858585;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    border: none;
+    outline: none;
+
+    border-radius: 5px;
+    width: 97%;
+    padding: 1rem .5rem;
+}
+
+.profileSection .left .profileForm .inputfield {
+    width: auto;
+    padding: .5rem 1rem;
+
+    border-radius: 5px;
+    border: 2px solid #ECECEC;
+    background: #FFF;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profileSection .left .profileForm .inputfield input {
+    color: #858585;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
+.profileSection .left .profileForm .inputfield svg {
+    color: rgba(222, 29, 62, 1);
+    background-color: rgba(196, 196, 196, 0.14);
+    border-radius: 50%;
+    padding: .3rem;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.profileSection .left .profileForm label {
+    color: #1C1C1C;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    margin: .8rem 0;
+    display: block;
+}
+
+
+.profileSection .left .profileForm .firstLast {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 1.2rem;
+}
+
+.profileSection .left .profileForm .firstLast div select{
+    color: #858585;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        outline: none;
+        border: none;
+        width: 19vw;
+
+
+        padding: .5rem 0rem;
+        margin: 0;
+        height: auto;
+        
+            border-radius: 5px;
+            border: 2px solid #ECECEC;
+            background: #FFF;
+}
+
+
+.profileSection .right {
+    text-align: center;
+}
+
+
+.profileSection .right .manageAddress {
+    border-radius: 10px;
+    background: rgba(222, 29, 62, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 1rem;
+}
+
+.profileSection .right .manageAddress svg {
+    cursor: pointer;
+}
+
+.profileSection .right .manageAddress h5 {
+    color: #DE1D3E;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.profileSection .right .manageAddress svg {
+    color: #DE1D3E;
+}
+
+.profileSection .right .savedaddresscards {
+    border-radius: 10px;
+    background: #FAFAFA;
+    margin-top: 1rem;
+
+    padding: 1rem 2rem;
+}
+
+.profileSection .right .savedaddresscards button {
+    color: #FFF;
+    font-size: 14.4px;
+    font-style: normal;
+    font-weight: 600;
+
+    border-radius: 5px;
+    background: #DE1D3E;
+    padding: 10px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.profileSection .right .savedaddresscards .card {
+    border-radius: 10px;
+    background: rgba(255, 185, 0, 0.10);
+    margin-bottom: 1rem;
+}
+
+.profileSection .right .savedaddresscards .bgActive {
+    background: #FFFBF0;
+
+}
+
+.profileSection .right .savedaddresscards .card .cardheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .7rem 1rem;
+}
+
+.profileSection .right .savedaddresscards .card .cardheader h5 {
+    color: #936037;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.profileSection .right .savedaddresscards .card .cardheader .icons {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.profileSection .right .savedaddresscards .card .cardheader .icons .green {
+    color: #936037;
+}
+
+.profileSection .right .savedaddresscards .card .cardheader .icons .red {
+    color: #DE1D3E;
+}
+
+.profileSection .right .savedaddresscards .card .cardheader .icons svg {
+    cursor: pointer;
+}
+
+.profileSection .right .savedaddresscards .card .cardheader .icons svg:first-child {
+    color: rgba(251, 0, 9, 1);
+    background-color: rgba(244, 0, 0, 0.1);
+    border-radius: 50%;
+    padding: .3rem;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.savedaddresscards>.card>.cardbody {
+    border-radius: 10px;
+    background-color: tsransparent;
+    padding: 0.7rem 1rem;
+    display: none;
+    border-top: 1px solid rgba(233, 233, 233, 1);
+}
+
+.savedaddresscards>.card>.showCardBody {
+    display: block;
+}
+
+.savedaddresscards>.card>.cardbody>.content {
+    /* padding: .7rem; */
+    text-align: left;
+}
+
+.savedaddresscards>.card>.cardbody>.content>h5 {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.savedaddresscards>.card>.cardbody>.content>p {
+    color: #333;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    padding: .5rem 0;
+}
+
+
+.manageblogs {
+    margin: 2rem 0;
+}
+
+.manageblogs .btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.manageblogs button {
+    width: 100%;
+    border-radius: 10px;
+    background: rgba(255, 185, 0, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border: none;
+}
+
+.manageblogs .active {
+    background: rgba(222, 29, 62, 0.10);
+}
+
+.manageblogs button h5 {
+    color: #936037;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+
+.manageblogs button svg {
+    color: #936037;
+    cursor: pointer;
+}
+
+.manageblogsMobile {
+    display: none;
+}
+
+.manageblogsMobile button {
+    margin: 1rem 0;
+}
+
+.green {
+    color: #936037 !important;
+}
+
+.red {
+    color: #DE1D3E !important;
+}
+
+
+.colHandlerBtn {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.colHandlerBtn>button {
+    border-radius: 5px;
+    background: #DE1D3E;
+    color: white;
+    border: none;
+    padding: 7.2px 16px;
+    width: 100%;
+}
+
+
+
+@media screen and (max-width:1000px) {
+    .profile {
+        padding: 2rem;
+    }
+
+    .profileSection .right .savedaddresscards {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .profileSection .left .profileInfo .end {
+        /* justify-content: end; */
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+
+    .profileSection .left .profileInfo .end .EditForget p:first-child {
+        justify-content: start;
+    }
+
+    .profileSection .left .profileInfo .end .EditForget {
+        margin-top: 8px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .profileSection {
+        flex-direction: column;
+    }
+
+    .profileSection .left,
+    .profileSection>.right {
+        width: 100%;
+    }
+
+    .profileSection .left .profileInfo .end {
+        justify-content: space-between;
+    }
+
+    .colHandlerBtn {
+        display: flex;
+    }
+
+    .colHandlerBtn>button {
+        width: auto;
+    }
+
+    .profileSection .left .profileForm .firstLast {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .profileSection .left .profileForm .firstLast>div {
+        width: 100%;
+    }
+
+    .manageblogs {
+        display: none;
+    }
+
+    .manageblogsMobile {
+        display: block;
+    }
+
+    .profileSection .left .profileInfo .end .EditForget p:first-child {
+        justify-content: end;
+    }
+
+
+.profileSection .left .profileForm .firstLast div select {
+    width: 100%;
+}
+}
+
+@media screen and (max-width:450px) {
+    .profile {
+        padding: 1rem;
+    }
+
+    .profileSection .left .profileInfo .end {
+        justify-content: start;
+    }
+
+    .manageblogs .btns {
+        gap: 1rem;
+    }
+
+    .manageblogs .btns button {
+        padding: .5rem;
+    }
+
+    .manageblogs .btns button h5 {
+        font-size: 13px;
+    }
+
+    .manageblogs .btns button svg {
+        font-size: 15px;
+    }
+
+    .profileSection .left .profileInfo .end .EditForget p:first-child {
+        justify-content: start;
+    }
+}

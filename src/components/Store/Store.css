@@ -1,0 +1,179 @@
+.store{
+   
+}
+
+.store .storebg{
+    /* background: url(/public/img/storebg2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    height: 329px;
+    color: #FFF;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+
+.store .storebg img {
+width: 47px;
+    height: 38px;
+}
+
+.store .storebg .storebgimg{
+        position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 329px;
+            z-index: -1;
+}
+.store .storebg h3{
+color: #DE1D3E;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+}
+.store .storebg h3 span{
+    color: #FFB900;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+}
+.store .storebg p{
+color: #BBB;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    width: 440px;
+    text-align: center;
+}
+
+
+.store .storecards{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap:2rem  1.5rem;
+
+    padding: 2rem 4rem;
+    flex-wrap: wrap;
+}
+
+.store .storecards .card{
+    width: 230px;
+
+    border-radius: 9px;
+        background: #FFF;
+        box-shadow: 0px 36px 81px 0px rgba(0, 0, 0, 0.06);
+
+        padding: 1rem;
+}
+
+
+.store .storecards .card>img{
+    width: 100%;
+}
+.store .storecards .card>p{
+color: #484848;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.store .storecards .card .detail{
+    display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding-top: 1rem;
+}
+
+.store .storecards .card .detail .score{
+    display: flex;
+        align-items: center;
+        gap: .5rem;
+
+        color: #484848;
+
+}
+
+.store .storecards .card .detail .score>img{
+width: 25.2px;
+}
+
+.store .storecards .card .detail button{
+border-radius: 9px;
+    background: #DE1D3E;
+    border: none;
+    padding: 7.2px 18px;
+
+    font-size: 14.4px;
+        font-style: normal;
+        font-weight: 600;
+        color: #FFF;
+        cursor: pointer;
+}
+
+
+@media screen and (max-width:1000px) {
+.store .storecards .card {
+    width: 190px;
+}
+
+.store .storecards {
+    gap: 2rem 1rem;
+}
+}
+@media screen and (max-width:850px) {
+.store .storecards {
+      padding: 2rem;
+}
+}
+
+@media screen and (max-width:768px) {
+.store .storecards {
+    padding: 2rem;
+}
+  .store .storebg {
+      background-position: right;
+  }
+
+}
+
+
+@media screen and (max-width:650px) {
+.store .storecards .card {
+        /* width: 100%; */
+    }
+      
+}
+
+
+@media screen and (max-width:550px) {
+.store .storebg {
+    padding: 0 1rem;
+}
+.store .storebg p {
+    width: auto;
+}
+
+.store .storecards {
+    padding: 2rem 0rem;
+    gap: 2rem 0.5rem
+}
+
+.store .storecards .card {
+    width: 145px;
+}
+.store .storecards .card>p {
+    font-size: 12px;
+}
+.store .storecards .card .detail {
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+}

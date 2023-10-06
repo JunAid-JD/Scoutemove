@@ -1,0 +1,98 @@
+.articleSection{
+padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: start;
+    color: #000;
+}
+
+.articleSection h1{
+font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.articleSection h5 {
+    font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        padding: 1rem 0;
+}
+.articleSection p{
+    font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        color: #A7A7A7;
+}
+.articleSection p a{
+    color: #333;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+}
+
+.articleSection .articlebody{
+    padding: 2rem 0;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.articlebody .viewmorebtn{
+    margin-top: 2rem;
+}
+
+.articleSection .articlebody article img{
+    width: 100%;
+}
+
+
+.articleSection .articlebody .left{
+    width: 47%;
+}
+.articleSection .articlebody .right {
+    width: 53%;
+    /* display: flex;
+    align-items: start;
+    gap: 2rem;
+    flex-direction: column; */
+}
+
+
+.articleSection .articlebody .right article{
+   display: flex;
+   align-items: start;
+   gap: 1rem;
+   margin: 0rem 0 1rem;
+}
+
+.articleSection .articlebody .right article h5{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* ==============------------- Responsive -------------------============ */
+
+@media screen and (max-width:1200px) {
+    .articleSection .articlebody{
+        flex-wrap: wrap;
+    }
+    .articleSection .articlebody .right, .articleSection .articlebody .left{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .articleSection .articlebody .right article {
+            margin: 0rem 0 3rem;
+            flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,229 @@
+/* ------ Header -------- */
+header {
+    width: auto;
+    height: 80px;
+    /* padding: 0 5rem; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0.826px solid #EEE;
+}
+
+header .left {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+header .left .logo {
+    width: 158px;
+    cursor: pointer;
+}
+
+header .left .logo img {
+    width: 100%;
+}
+
+header .left nav {}
+
+.cancelbtn{
+    display: none !important;
+        position: absolute;
+            right: 3rem;
+            color: white;
+    cursor: pointer;
+}
+
+.menubtn{
+    display: none !important;
+    cursor: pointer;
+}
+
+
+header .left nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+header .left nav ul li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+
+header .left nav ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #DE1D3E;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+header .left nav ul li:hover::after {
+    width: 100%;
+}
+
+
+
+
+header .left nav ul li a {
+    color: #999;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+header .left nav ul li a:hover {
+    color: #DE1D3E;
+    font-weight: 500;
+}
+
+/* for active */
+header .left nav ul li.active::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #DE1D3E;
+    display: block;
+    margin: auto;
+}
+
+header .left nav ul li.active a {
+    color: #DE1D3E;
+    font-weight: 500;
+}
+
+
+
+header .right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+header .right .login {
+    color: #333;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    /* padding-right: 20px; */
+}
+
+header .right .signup {
+    border-radius: 30px;
+    background: #DE1D3E;
+
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+
+    display: inline-flex;
+    padding: 10px 25px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================-------------- Reponsive ---------------================= */
+@media screen and (max-width:950px) {
+    header .left nav  {
+            background: rgba(0, 0, 0, .9);
+            width: 50%;
+            height: 100%;
+            position: absolute;
+            right: 0;
+            top: 0;
+            display: none;
+            z-index: 2;
+        }
+          header .left nav ul {
+                    display: flex;
+                    align-items: start;
+                    flex-direction: column;
+                    gap: 2rem;
+                    padding: 2rem;
+                }
+
+                  header .left nav ul li a {
+                      color: white;
+                      font-size: 16px;
+                  }
+header .left nav ul li a:hover {
+    color: #999;
+}
+                 header .right {
+                     position: absolute;
+                     top: 31%;
+                     left: 54%;
+                     display: none;
+                     padding-top: 2rem;
+                 }
+               header .right .login {
+               color: white;
+                    font-size: 16px;
+               }
+                 header .right .login:hover {
+               color: #999;
+
+               }
+               
+                header .right .signup {
+                    font-size: 16px;
+                }
+               
+.cancelbtn,.menubtn {
+    display: block !important;
+}
+
+header .block{
+    display: block !important;
+    z-index: 2;
+}
+header .flex {
+    display: flex;
+    z-index: 2;
+}
+
+}
+
+@media screen and (max-width:768px) {
+    .cancelbtn {
+        right: 1rem;
+    }
+                 
+}
+
+@media screen and (max-width:600px) {
+header .right {
+        right: 17%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    header .left nav {
+    width: 100%;
+    }
+           header .right {
+            right: 0;
+            left: 2rem;
+           }
+}

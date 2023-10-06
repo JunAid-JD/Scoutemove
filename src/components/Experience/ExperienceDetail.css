@@ -1,0 +1,284 @@
+.experienceDetail{
+    padding: 2rem 5rem;
+}
+
+.experienceDetail .detail{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.experienceDetail .detail .left{
+
+}
+
+.experienceDetail .detail .left h4{
+    color: #DE1D3E;
+        font-size: 26.957px;
+        font-style: normal;
+        font-weight: 700;
+}
+
+.experienceDetail form{
+   margin-top: 2rem;
+}
+
+.experienceDetail form label{
+    color: #000;
+        font-size: 21.261px;
+        font-style: normal;
+        font-weight: 600;
+}
+
+.experienceDetail form select{
+    text-indent: 1rem;
+    color: #999;
+        font-size: 16.174px;
+        font-style: normal;
+        font-weight: 500;
+
+        border-radius: 6.739px;
+            border: 1.348px solid #E0E0E0;
+
+            background: #FFF;
+}
+
+.experienceDetail form .input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem;
+    border-radius: 6.739px;
+        border: 1.348px solid #E0E0E0;
+        margin: 1rem 0;
+}
+.experienceDetail form .input input{
+ width: 100%;
+color: #999;
+    font-size: 16.174px;
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+.experienceDetail form .input svg{
+     background-color: rgba(196, 196, 196, 0.14);
+     padding: .2rem;
+     font-size: 12px;
+     color: rgba(222, 29, 62, 1);
+     border-radius: 10px;
+        cursor: pointer;
+}
+
+.experienceDetail .right{
+    /* width: 550px; */
+    border-radius: 10px;
+        border: 1px solid #D8D8D8;
+        background: #FFF;
+        box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.07);
+        padding: 2rem 3rem;
+}
+.experienceDetail .right .box{
+display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+}
+.experienceDetail .right .box h3{
+    color: #FFB900;
+        font-size: 30.193px;
+        font-style: normal;
+        font-weight: 700;
+}
+.experienceDetail .right .box .line {
+    background-color: rgba(240, 240, 240, 1);
+    width: 268.36px;
+        height: 3.019px;
+        display: block;
+}
+
+/* .experienceDetail .right img{
+    width: 100%;
+} */
+
+.experienceDetail .detailbox{
+
+}
+
+.experienceDetail .detailbox label{
+   display: block;
+   margin: 1rem 0;
+    color: #000;
+        font-size: 24.261px;
+        font-style: normal;
+        font-weight: 600;
+}
+
+
+.experienceDetail .detailbox  .input{
+            display: flex;
+            align-items: start;
+            justify-content: space-between;
+            padding: .5rem;
+            border-radius: 6.739px;
+            border: 1.348px solid #E0E0E0;
+            margin: 1rem 0;
+        }
+    
+   .experienceDetail .detailbox .input textarea {
+            width: 100%;
+            color: #999;
+            font-size: 16.174px;
+            font-style: normal;
+            font-weight: 500;
+            border: none;
+            outline: none;
+        }
+    
+        .experienceDetail  .input svg {
+            background-color: rgba(196, 196, 196, 0.14);
+            padding: .2rem;
+            font-size: 12px;
+            color: rgba(222, 29, 62, 1);
+            border-radius: 10px;
+
+          cursor: pointer;
+        }
+
+
+        .experienceDetail .upload{
+            display: flex;
+            align-items: start;
+            justify-content: space-between;
+            gap: 2rem;
+            text-align: center;
+
+            padding: 3rem 0;
+        }
+
+        .experienceDetail .upload .upload-thumbnail{
+        }
+
+                .experienceDetail .upload .upload-thumbnail img{
+                    width: 258px;
+                }
+
+  .experienceDetail .upload .upload-blog-image img {
+                                width: 416px;
+                                    height: 194px;
+                                }
+                .experienceDetail .upload  .thumbnail{
+                     margin: 1rem 0;
+                }
+
+
+      .experienceDetail .upload .thumbnail svg{
+             color: rgba(255, 185, 0, 1);
+            width: 39.01px;
+                height: 39.01px;
+                cursor: pointer;
+      }
+
+          .experienceDetail .upload .thumbnail h3{
+            color: #FFB900;
+                font-size: 24.261px;
+                font-style: normal;
+                font-weight: 600;
+          }
+
+          .experienceDetail .upload  .thumnailimg{
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             flex-direction: column;
+            background: #FDFDFD;
+            padding: 2rem 5rem;
+
+            margin-top: 3rem;
+          }
+
+
+                  .experienceDetail .upload .thumnailimg img{
+                       max-height: 248px;
+                       max-width: 416px;
+                       border-radius: 7px;
+
+                    object-fit: contain;
+                  }
+
+
+    .experienceDetail .upload .thumnailimg p{
+        color: #DE1D3E;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            margin-top: 1rem;
+    }
+
+
+.publish{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    margin: 1rem 0 3rem;
+}
+.publish button{
+    padding: 13.478px 21.565px;
+    border-radius: 6.739px;
+        background: #DE1D3E;
+        border: none;
+
+        color: #FFF;
+            font-size: 19.409px;
+            font-style: normal;
+            font-weight: 600;
+            cursor: pointer;
+}
+
+
+
+
+
+
+    @media screen and (max-width:1100px) {
+        .experienceDetail .detail {
+                align-items: center;
+                flex-direction: column;
+            }
+                        .experienceDetail .right {
+                            width: auto;
+                        }
+
+                .experienceDetail .upload {
+                    flex-direction: column;
+                    align-items: center;
+                }
+    }
+
+        @media screen and (max-width:768px) {
+            .experienceDetail {
+                    padding: 2rem;
+                }
+
+     .experienceDetail .upload .thumnailimg {
+        padding: 2rem;
+     }
+        }
+
+
+        @media screen and (max-width:450px) {
+                 
+            .experienceDetail .upload .upload-blog-image img {
+                    width: 300px;
+                    height: auto;
+                }
+
+               .experienceDetail .right {
+                    padding: 2rem 1rem;
+               }
+                           .experienceDetail .upload .thumnailimg {
+                               padding: 1rem;
+                           }
+        }

@@ -1,0 +1,386 @@
+.blogsdetail{
+    padding: 2rem 5rem 8rem;
+}
+
+.blogsdetailheader{
+    text-align: center;
+}
+.blogsdetailheader>.author{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .7rem;
+
+}
+
+.blogsdetailheader>.author img{
+    width: 32px;
+}
+.blogsdetailheader>.author h3{
+    color: #000;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+}
+.blogsdetailheader>.title{
+    padding-top: 8px;
+    color: #999;
+    font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+}
+
+.blogsdetailcontent{
+    padding: 2rem 0;
+}
+.blogsdetailcontent>button{
+    padding: 6px 12px;
+    border-radius: 6px;
+        background: #DE1D3E;
+           border: 1px solid #DE1D3E;
+           color: #FFF;
+        font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+    }
+.blogsdetailcontent>h1{
+    font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        color: #181A2A;
+        width: 60%;
+        padding-top: 5px;
+}
+.blogsdetailcontent .reactions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+.blogsdetailcontent .reactions .date{
+    font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        color: #696A75;
+}
+.blogsdetailcontent .reactions .icons{
+    display: flex;
+        align-items: center;
+        gap: 8px;
+}
+.blogsdetailcontent .reactions .icons>svg{
+    background-color: rgba(217, 217, 217, 0.3);
+    border-radius: 50%;
+    padding: 5px;
+    color: rgba(153, 153, 153, 1);
+    cursor: pointer;
+}
+.blogsdetailcontent .reactions .icons>svg:first-child{
+        color: rgba(222, 29, 62, 1);
+   }
+.blogsdetailcontent .reactions .icons>svg:hover{
+    color: rgba(222, 29, 62, 1);
+}
+.blogsdetailcontent>.image{
+    width: 100%;
+}
+
+.blogsdetailcontent .reactions .icons .down {
+}
+.blogsdetailcontent .reactions .icons .share {
+    color: rgba(255, 185, 0, 1);
+}
+
+.blogsdetailcontent>.image >img{
+    width: 100%;
+}
+
+.blogsdetailcontent>.details{
+    font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        color: #3B3C4A;
+
+        padding-top: 6px;
+}
+
+
+.blogsdetail>.adds{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     padding: 2rem 0;
+
+}
+.blogsdetail>.adds>img{
+width: 594px;
+    height: 221px;
+}
+
+
+
+.blogsdetailaccordian{
+    padding-top: 2rem;
+}
+.blogsdetailaccordian .accordiancontent{
+    font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+      color: #3B3C4A;
+}
+
+.blogsdetailaccordian  .accordiansection{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+}
+
+.blogsdetailaccordian .accordiansection .accordion{
+    width: 671px;
+    padding: 1rem 0;
+}
+
+.blogsdetailaccordian .accordiansection .accordion .accordion-header{
+    display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+.blogsdetailaccordian .accordiansection .accordion .accordion-header h3{
+    font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        color: #333;
+}
+.blogsdetailaccordian .accordiansection .accordion .accordion-header svg{
+    cursor: pointer;
+}
+.blogsdetailaccordian .accordiansection .accordion .accordion-header .red{
+    color: rgba(222, 29, 62, 1);
+}
+.blogsdetailaccordian .accordiansection .accordion .accordion-header .gold {
+    color: rgba(255, 185, 0, 1);
+}
+
+.blogsdetailaccordian .accordiansection .accordion .accordion-content{
+    
+}
+/* .blogsdetailaccordian .accordiansection .accordion  .show{
+    display: block;
+} */
+
+.blogsdetailaccordian .accordiansection .accordion .accordion-content>p{
+    color: #999;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        background-color: rgba(160, 160, 160, 0.04);
+        padding: 1rem;
+        margin: 6px 0;
+} 
+
+.blogsdetailaccordian .accordiansection .accordion .accordion-content  .count{
+   display: flex;
+   align-items: center;
+   justify-content: end;
+   gap: 10px;
+   padding: 5px 0 2rem;
+}
+
+.blogsdetailaccordian .accordiansection .accordion .accordion-content .count>p{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+        font-size: 16.6px;
+            font-style: normal;
+            font-weight: 500;
+            color: #484848;
+}
+.blogsdetailaccordian .accordiansection .accordion .accordion-content .count>p>img{
+    width: 25.2px;
+}
+
+.blogsdetailaccordian .accordiansection .accordion .accordion-content .count>button{
+    border-radius: 8.667px;
+        background: #DE1D3E;
+        font-size: 14.733px;
+            font-style: normal;
+            font-weight: 400;
+            color: #FFF;
+height: 43.333px;
+            padding: 0 20px;
+cursor: pointer;
+            border: 1px solid #DE1D3E;
+}
+
+.blogsdetailaccordian .summary{
+    margin: 2rem 0;
+    border-radius: 8.667px;
+        background: #FFF8E5;
+        box-shadow: 0px 0px 8px 0px rgba(255, 248, 229, 0.25);
+        width: 100%;
+
+        padding: 1rem;
+
+        display: flex;
+        align-items: baseline;
+        gap: .5rem;
+}
+.blogsdetailaccordian .summary h4{
+    color: #DE1D3E;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+}
+.blogsdetailaccordian .summary p {
+    font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        color: #3B3C4A;
+        line-height: 26px;
+}
+
+
+
+
+.questionAnswer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 0 1rem;
+}
+.questionAnswer form{
+    border-radius: 10px;
+        background: #FAFAFA;
+        padding: 1rem 2rem;
+        width: 671px;
+}
+.questionAnswer form label{
+    display: block;
+        font-size: 24.261px;
+            font-style: normal;
+            font-weight: 600;
+}
+
+.questionAnswer form .red{
+    color: #DE1D3E;
+    
+}
+.questionAnswer form .yellow{
+color: #FFB900;
+}
+.questionAnswer form input{
+    border-radius: 6.739px;
+        border: 1.348px solid #E0E0E0;
+    text-indent:  2rem;
+        height: 54px;
+
+        color: #999;
+            font-size: 16.174px;
+            font-style: normal;
+            font-weight: 500;
+            width: 100%;
+    margin: 1rem 0;
+}
+
+.questionAnswer .btns{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 1rem;
+}
+.questionAnswer .btns button{
+    cursor: pointer;
+border-radius: 6.739px;
+    border: none;
+
+    padding: 13.478px 21.565px;
+        font-size: 19.409px;
+        font-style: normal;
+        font-weight: 600;
+}
+
+.questionAnswer .btns button:first-child {
+    color: #333;
+        background: #FFF;
+}
+.questionAnswer .btns button:last-child {
+    color: #FFF;
+    background: #DE1D3E;
+}
+
+@media screen and (max-width:1100px) {
+.blogsdetailcontent>h1 {
+    width: 100%;
+}
+}
+
+@media screen and (max-width:950px) {
+    .blogsdetailaccordian .accordiansection .accordion {
+            width: 90%;
+        }
+                .questionAnswer .box{
+                    width: 90%;
+                }
+                                .questionAnswer form{
+                                    width: auto;
+                                }
+}
+
+@media screen and (max-width:768px) {
+    .blogsdetail {
+            padding: 2rem 3rem 8rem;
+        }
+.blogsdetailcontent>h1 {
+    font-size: 26px;
+}
+.blogsdetailcontent>.details, .blogsdetailaccordian .accordiancontent {
+    font-size: 16px;
+}
+
+
+.blogsdetail>.adds>img {
+        width: 100%;
+        height: auto;
+}
+}
+
+
+@media screen and (max-width:450px) {
+    .blogsdetail {
+        padding: 2rem 1rem 8rem;
+    }
+        .blogsdetailcontent>button {
+            font-size: 12px;
+        }
+                .blogsdetailcontent>h1 {
+                    font-size: 20px;
+                }
+                .blogsdetailcontent .reactions .date {
+                    font-size: 12px;
+                }
+                .blogsdetailcontent>.details,
+                .blogsdetailaccordian .accordiancontent {
+                    font-size: 14px;
+                }
+
+           .blogsdetailaccordian .accordiansection .accordion {
+               width: 100%;
+           }
+                   .blogsdetailaccordian .accordiansection .accordion .accordion-content .count>button {
+                       font-size: 12.733px;
+                       height: 40.333px;
+                   }
+
+       .blogsdetailaccordian .accordiansection .accordion .accordion-header {
+        gap: 1rem;
+       }
+
+           .questionAnswer .box {
+               width: 100%;
+           }
+                   .questionAnswer form input{
+                    text-indent: 5px;
+                   }
+}
