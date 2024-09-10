@@ -1,6 +1,11 @@
 import React, { useEffect, useState } from "react";
 import "./Header.css";
-import { Cancel, Menu } from "@mui/icons-material";
+import {
+  ArrowForwardIos,
+  Cancel,
+  KeyboardArrowDown,
+  Menu,
+} from "@mui/icons-material";
 import { Link, useLocation } from "react-router-dom";
 
 const Header = () => {
@@ -77,6 +82,31 @@ const Header = () => {
                 <Link to="/store">
                   <a href="#store">Store</a>
                 </Link>
+              </li>
+              <li
+                className={`category ${nav === "Category" ? "active" : ""}`}
+                onClick={() => {
+                  setNav("Category");
+                  // setOpen(false);
+                }}
+              >
+                <a href="#Category">
+                  Blog Category <KeyboardArrowDown />
+                </a>
+                <ul className="dropdown">
+                  <li>
+                    <a href="">Our Blogs</a> <ArrowForwardIos />
+                  </li>
+                  <li>
+                    <a href="">Our Blogs</a> <ArrowForwardIos />
+                  </li>
+                  <li>
+                    <a href="">Our Blogs</a> <ArrowForwardIos />
+                  </li>
+                  <li>
+                    <a href="">Our Blogs</a> <ArrowForwardIos />
+                  </li>
+                </ul>
               </li>
               <Cancel className="cancelbtn" onClick={() => setOpen(false)} />
             </ul>

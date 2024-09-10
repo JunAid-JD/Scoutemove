@@ -4,13 +4,8 @@ import { AddCircleSharp, RemoveCircleSharp } from "@mui/icons-material";
 
 const Accordian = ({ heading, para, number, img }) => {
   const [accordian, setAccordian] = useState(false);
-  const [text, setText] = useState(
-    "TanahAir offers a service for creating a website design,  illustration, icon set"
-  ); // Initial text
+  const [text, setText] = useState(para); // Initial text
 
-  const handleTextChange = (e) => {
-    setText(e.target.innerText);
-  };
   return (
     <div className="accordion">
       <div className="accordion-header">
@@ -28,14 +23,11 @@ const Accordian = ({ heading, para, number, img }) => {
 
       {accordian && (
         <div className="accordion-content">
-          <p
-            contentEditable
-            onBlur={handleTextChange}
-            onInput={handleTextChange}
-            style={{ outline: "none" }}
-          >
-            {text}
-          </p>
+          <input
+            type="text"
+            value={text}
+            onChange={(e) => setText(e.target.value)}
+          />
           <div className="count">
             <p>
               <img src={img} alt="bg" /> {number}

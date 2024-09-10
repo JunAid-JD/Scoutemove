@@ -2,6 +2,7 @@ import { Search } from "@mui/icons-material";
 import React, { useState } from "react";
 import "./Hero.css";
 import { ScrollingCarousel } from "@trendyol-js/react-carousel";
+import SearchBox from "./SearchBox";
 
 const Hero = () => {
   const [select, setSelect] = useState("first");
@@ -27,18 +28,24 @@ const Hero = () => {
   return (
     <div className="heroSection p-5">
       <div className="left">
+        <p>Explore Beautiful Places</p>
         <h1>
           Dare to live <span>the life</span> you've always <b>wanted</b>.
         </h1>
-        <div className="searchbox">
-          <div className="search">
+        <p>
+          Travelling leaves you speechless, then turns you into a storyteller.
+          Join others in telling the story don’t listen to it.
+        </p>
+        {/* <div className="searchbox"> */}
+        {/* <div className="search">
             <Search />
             <input type="text" placeholder="Search Blogs,Articles" />
           </div>
-          <button>Search</button>
-        </div>
+          <button>Search</button> */}
+        <SearchBox />
+        {/* </div> */}
       </div>
-      <div className="right">
+      {/* <div className="right">
         <div className="temperatureSection">
           <div className="left">
             <div className="vector">
@@ -177,14 +184,15 @@ const Hero = () => {
             </div>
           </ScrollingCarousel>
         </div>
-      </div>
-      <div className="searchbox " id="searchboxonmobile">
-        <div className="search">
+      </div> */}
+      {/* <div className="searchbox "> */}
+      <SearchBox id="searchboxonmobile" />
+      {/* <div className="search">
           <Search />
           <input type="text" placeholder="Search Blogs,Articles" />
         </div>
-        <button>Search</button>
-      </div>
+        <button>Search</button> */}
+      {/* </div> */}
     </div>
   );
 };

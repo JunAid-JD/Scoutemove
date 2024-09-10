@@ -1,0 +1,37 @@
+.acessory2{
+
+}
+
+
+.acessory2>main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 250px;
+    align-items: start;
+}
+
+
+.acessory2 main .card{
+        height: -webkit-fill-available;
+}
+.acessory2 main .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main .short {
+    grid-row: span 1;
+}
+
+main .tall {
+    grid-row: span 2;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .acessory2>main {
+            grid-template-columns: 1fr;
+    }
+}

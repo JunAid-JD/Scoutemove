@@ -1,0 +1,210 @@
+.orderDetailSection{
+    width: 50%;
+}
+
+ .orderDetailSection .orderdetail{
+  padding: .5rem 1rem;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 2rem;
+    /* margin-top: 2rem; */
+}
+
+
+
+ .orderDetailSection .orderdetail .detail{
+    /* padding: .5rem 0; */
+    border-bottom: 1px solid #B9B9B9;
+ }
+
+
+
+
+ .orderDetailSection .orderdetail .detail h1{
+    color:  #181A2A;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+ }
+
+
+ .orderDetailSection .orderdetail .detail .detailbox{
+    display: flex;
+    align-items: start;
+    gap: 3rem;
+    /* padding: 1rem 0; */
+
+ }
+
+ .orderDetailSection .orderdetail .detail .detailbox .item{
+    text-align: start;
+ }
+
+ .orderDetailSection .orderdetail .detail .detailbox .item p{
+    color: #999;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px;
+        /* 200% */
+ }
+
+ .orderDetailSection .orderdetail  .detail .detailbox .spec{
+    text-align: start;
+ }
+
+
+
+ .orderDetailSection .orderdetail .detail .detailbox .spec p{
+    color: #484848;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 40px;
+        /* 200% */
+
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+ }
+
+
+
+  .orderDetailSection .orderdetail .image{
+    padding: 1rem;
+    width: 250px;
+border-radius: 10px;
+    background: #F4F4F4;
+  }
+
+  .orderDetailSection .orderdetail .image img{
+    width: 100%;
+    border-radius: 10px;
+  }
+
+
+  .orderDetailSection .orderStatus{
+    padding: 0rem 1rem 1rem;
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+  }
+  .orderDetailSection .orderStatus   .progres{
+display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+  }
+
+  .orderDetailSection .orderStatus .progres .line{
+    background: #DE1D3E;
+    width: 2px;
+        height: 32px;
+  }
+
+.orderDetailSection .orderStatus .progres .inactiveline{
+  background-color: #D9D9D9;
+  }
+  .orderDetailSection .orderStatus .progres .dot{
+    width: 14px;
+        height: 14px;
+        flex-shrink: 0;
+    background: #DE1D3E;
+    border-radius: 50%;
+  }
+
+
+
+  .orderDetailSection .orderStatus .detail{
+
+  }
+
+  .orderDetailSection .orderStatus .detail h3{
+    color:  #181A2A;
+        text-align: start;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+  }
+
+
+  .orderDetailSection .orderStatus .detail .box {
+    /* margin: .8rem 0; */
+    padding: 1rem;
+    width: 293px;
+    border-radius: 10px;
+        background: rgba(255, 185, 0, 0.10);
+  }
+
+  .orderDetailSection .orderStatus .detail .box h5{
+    color: #DE1D3E;
+        
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px;
+        /* 177.778% */
+  }
+
+
+  .orderDetailSection .orderStatus .detail .box p {
+    color: #000;
+        font-size: 12.26px;
+        font-style: normal;
+        font-weight: 600;
+            line-height: 20px;
+  }
+
+
+
+
+
+    @media screen and (max-width:850px) {
+
+      .accessoryDetail {
+            padding: 4rem 0;
+      }
+
+      .orderDetailSection {
+          width: 80%;
+        }
+
+
+    .orderDetailSection .orderdetail .detail h1 {
+        font-size: 20px;
+      }
+    }
+
+
+
+  @media screen and (max-width:768px) {
+    .orderDetailSection .orderdetail {
+        flex-wrap: wrap;
+    }
+        .orderDetailSection .orderStatus .detail .box {
+            width: auto;
+        }
+  }
+
+
+    @media screen and (max-width:550px) {
+    .orderDetailSection .orderStatus .detail .box {
+      padding: 0.5rem;
+    }
+  }
+
+
+
+        @media screen and (max-width:415px) {
+          .orderDetailSection .orderStatus .progres .line {
+              height: 51px;
+            }
+
+
+                        .orderDetailSection .orderStatus .detail h3 {
+                          font-size: 15px;
+                        }
+        }

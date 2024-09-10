@@ -75,12 +75,24 @@ header .left nav ul li a {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
+
+    display: flex;
+    align-items: center;
+}
+header .left nav ul li a svg{
+    color: rgba(153, 153, 153, 1);
+    
 }
 
 header .left nav ul li a:hover {
     color: #DE1D3E;
     font-weight: 500;
 }
+
+header .left nav ul li a:hover svg{
+    color: #DE1D3E;
+}
+
 
 /* for active */
 header .left nav ul li.active::after {
@@ -97,6 +109,50 @@ header .left nav ul li.active a {
     font-weight: 500;
 }
 
+
+header .left nav ul .category{
+    position: relative;
+        transition: all 1s;
+}
+
+header .left nav .dropdown{
+    position: absolute;
+    border-radius: 6px;
+        background: #FFF;
+        padding: 1rem;
+        display: none;
+        width: 250px;
+        transition: all 1s;
+}
+header .left nav .dropdown li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 0;
+}
+
+header .left nav .dropdown li::after{
+    display: none;
+}
+header .left nav .dropdown li a{
+    color: #333;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+}
+
+header .left nav .dropdown li a :hover{
+    color: #DE1D3E;
+}
+
+header .left nav .dropdown li svg{
+    font-size: 13px;
+    cursor: pointer;
+}
+
+header .left nav ul .category:hover .dropdown{
+        display: inline-block;
+}
 
 
 header .right {
@@ -172,7 +228,7 @@ header .left nav ul li a:hover {
 }
                  header .right {
                      position: absolute;
-                     top: 31%;
+                     top: 60%;
                      left: 54%;
                      display: none;
                      padding-top: 2rem;
@@ -203,12 +259,30 @@ header .flex {
     z-index: 2;
 }
 
+header .left nav .dropdown {
+    display: inline-block;
+    background-color: transparent;
+    padding: 1rem 0;
+}
+header .left nav .dropdown li a {
+    color: white;
+}
+header .left nav .dropdown li svg{
+    color: white;
+}
 }
 
 @media screen and (max-width:768px) {
     .cancelbtn {
         right: 1rem;
     }
+        header .left nav .dropdown {
+            gap: 1rem;
+            width: 160px;
+        }
+                header .left nav .dropdown li {
+                    padding: 5px;
+                }
                  
 }
 

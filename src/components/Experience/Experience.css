@@ -32,7 +32,23 @@
         font-weight: 500;
 }
 .experience form>select {
-    color: #000;
+    /* color: #000; */
+}
+
+.experience form select {
+    color: #858585;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        outline: none;
+        border: none;
+        width: 100%;
+        padding: 0.5rem 0rem;
+        margin: .7rem 0;
+        height: auto;
+        border-radius: 5px;
+    border-radius: 5px;
+        background: #F3F3F3;
 }
 
 .experience form .box{
@@ -40,7 +56,33 @@
         border: 1px solid #A2A2A2;
 margin-top: 1rem;
         padding: 0.5rem 2rem;
+        max-height: 170px;
+        overflow-y: scroll;
 }
+
+/* Hide the default scrollbar in WebKit-based browsers */
+.box::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+/* Style the scrollbar thumb (the draggable part) */
+.simplebar-scrollbar::before {
+    background-color: red;
+    
+    border-radius: 4px;
+    margin-right: 4px;
+    /* Rounded corners for the thumb */
+}
+
+/* Style the scrollbar track (the background) */
+.simplebar-scrollbar-track {
+    background-color: transparent;
+    margin-right: 4px;
+    /* Transparent background for the track */
+}
+
+
 
 .experience form .box svg{
     color: #DE1D3E;

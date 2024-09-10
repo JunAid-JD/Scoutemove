@@ -11,7 +11,7 @@ const BlogCard = () => {
           <span>Ishtiaq Ali</span>
         </div>
         <div className="icon">
-          <ModeEditOutlined />
+          {/* <ModeEditOutlined /> */}
           <DeleteOutline />
         </div>
       </div>
@@ -20,9 +20,10 @@ const BlogCard = () => {
         <img src="/img/hearticon.png" alt="bg" />
       </div>
       <div className="blogtext">
-        Lorem ipsum dolor siametconsectetur. Nec vestibulum eget duis quam leo
-        nec.
-        <Link to="/blogsDetail">View more</Link>
+        Headline
+        {/* Lorem ipsum dolor siametconsectetur. Nec vestibulum eget duis quam leo
+        nec. */}
+        {/* <Link to="/blogsDetail">View more</Link> */}
       </div>
     </div>
   );

@@ -169,7 +169,7 @@ width: 594px;
     display: block;
 } */
 
-.blogsdetailaccordian .accordiansection .accordion .accordion-content>p{
+.blogsdetailaccordian .accordiansection .accordion .accordion-content input{
     color: #999;
         font-size: 14px;
         font-style: normal;
@@ -177,6 +177,9 @@ width: 594px;
         background-color: rgba(160, 160, 160, 0.04);
         padding: 1rem;
         margin: 6px 0;
+        border: none;
+        width: 100%;
+        outline: none;
 } 
 
 .blogsdetailaccordian .accordiansection .accordion .accordion-content  .count{

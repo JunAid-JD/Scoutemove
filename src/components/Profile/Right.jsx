@@ -10,18 +10,24 @@ import {
   RemoveCircle,
   RemoveCircleOutlined,
 } from "@mui/icons-material";
+import AddAddress from "../AccessoryDetail/AddAddress";
+import SelectAddress from "../AccessoryDetail/SelectAddress";
 
 const Right = () => {
   const [isOpen, setIsOpen] = useState("one");
   const [manageAddress, setManageAddress] = useState(true);
+
+  const [selectAddress, SetSelectAddress] = useState(false);
+  // const [addAddress, setAddAddress] = useState(false);
+  const [placeOrder, setPlaceOrder] = useState(false);
 
   const toggleAccordion = (value) => {
     setIsOpen(value);
   };
   return (
     <div className="right">
-      <div className="manageAddress">
-        <h5> Manage Address</h5>
+      <div className={`manageAddress ${manageAddress ? "active" : ""}`}>
+        <h5 className={`${manageAddress ? "red" : "green"}`}>Manage Address</h5>
         {manageAddress ? (
           <RemoveCircle
             className="red"
@@ -29,7 +35,7 @@ const Right = () => {
           />
         ) : (
           <AddCircleOutlined
-            className="red"
+            className="green"
             onClick={() => setManageAddress(true)}
           />
         )}
@@ -153,7 +159,16 @@ const Right = () => {
               </div>
             </div>
           </div>
-          <button>+ Add address</button>
+          {selectAddress ? (
+            <SelectAddress
+              SetSelectAddress={SetSelectAddress}
+              setPlaceOrder={setPlaceOrder}
+            />
+          ) : placeOrder ? (
+            <AddAddress SetSelectAddress={SetSelectAddress} />
+          ) : null}
+          <button onClick={() => SetSelectAddress(true)}>+ Add address</button>
+          {/* <button onClick={() => setAddAddress(true)}>+ Add address</button> */}
         </div>
       )}
     </div>

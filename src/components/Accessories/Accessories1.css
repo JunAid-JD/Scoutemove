@@ -1,0 +1,114 @@
+.accessories{
+   padding: 5rem;
+display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.accessories h3{
+    color: #DE1D3E;
+        font-family: Inter;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        text-align: center;
+}
+
+
+.disable-scroll {
+    overflow: hidden;
+}
+
+.accessories main{
+    /* max-width: 900px; */
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 3rem 0;
+}
+
+.accessories main .card{
+    width: 350px;
+    position: relative;
+
+        display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+}
+
+.accessories main .card img{
+    width: 100%;
+    
+}
+
+
+
+.accessories main .card span{
+    position: absolute;
+            top: 0;
+            left: 0;
+            background: rgba(0, 0, 0, .60);
+            width: 100%;
+            height: 100%;
+}
+
+
+.accessories main .card h4{
+    position: absolute;
+        /* top: 50%;
+            left: 40%; */
+
+            color: #FFF;
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 800;
+}
+
+
+
+
+@media screen and (max-width:1060px) {
+    .accessories main {
+            max-width: 700px;
+        }
+   .accessories main .card {
+        width:300px;
+}
+
+
+.disable-scroll {
+    overflow: auto;
+}
+}
+
+
+@media screen and (max-width:830px) {
+    .accessories{
+        padding: 3rem;
+    }
+    .accessories main {
+        max-width: 550px;
+    }
+
+    .accessories main .card {
+        width: 250px;
+    }
+}
+
+
+@media screen and (max-width:650px) {
+.accessories main {
+        justify-content: center;
+}
+.accessories h3 {
+    font-size: 24px;
+}
+}
+
+
+
+

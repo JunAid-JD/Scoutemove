@@ -7,14 +7,18 @@ const Profileinfo = () => {
     <div className="profileinfo">
       <div className="firstLast">
         <div>
-          <label htmlFor="">First Name</label>
+          <label htmlFor="">
+            First Name<span className="red">*</span>
+          </label>
           <div className="inputfield">
             <input type="text" placeholder="Alex" />
             <EditOutlined />
           </div>
         </div>
         <div>
-          <label htmlFor="">Last Name</label>
+          <label htmlFor="">
+            Last Name<span className="red">*</span>
+          </label>
           <div className="inputfield">
             <input type="text" placeholder="Hales" />
             <EditOutlined />
@@ -24,16 +28,19 @@ const Profileinfo = () => {
 
       <div className="firstLast">
         <div>
-          <label htmlFor="">Contact Number</label>
+          <label htmlFor="">
+            Contact Number<span className="red">*</span>
+          </label>
           <div className="inputfield">
             <input type="text" placeholder="+994****456789" />
             <EditOutlined />
           </div>
         </div>
         <div>
-          <label htmlFor="">Gender</label>
+          <label htmlFor="">
+            Gender<span className="red">*</span>
+          </label>
           <select name="" id="">
-            <option value=""></option>
             <option value="">Male</option>
             <option value="">Female</option>
             <option value="">Other</option>
@@ -46,7 +53,9 @@ const Profileinfo = () => {
         <input type="text" placeholder="+994****456789" />
         <EditOutlined />
       </div> */}
-      <label htmlFor="">Date of birth</label>
+      <label htmlFor="">
+        Date of birth<span className="red">*</span>
+      </label>
       <div className="inputfield">
         <input type="date" placeholder="12/6/1993" />
         {/* <CalendarMonth /> */}

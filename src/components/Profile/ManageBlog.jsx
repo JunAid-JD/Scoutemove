@@ -20,9 +20,7 @@ const ManageBlog = () => {
     <div className="manageblogs">
       <div className="btns">
         <button className={`${manageBlogBtn ? "active" : ""}`}>
-          <h5 className={`${manageOrderBtn ? "red" : "green"}`}>
-            Manage Blogs
-          </h5>
+          <h5 className={`${manageBlogBtn ? "red" : "green"}`}>Manage Blogs</h5>
           {manageBlogBtn ? (
             <RemoveCircle
               className="red"

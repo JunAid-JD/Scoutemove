@@ -23,7 +23,8 @@ const ExperienceDetail = () => {
 
       <Upload />
       <div className="publish">
-        <button>Publish</button>
+        <button>Save and continue</button>
+        <button>Skip adding questions</button>
       </div>
     </div>
   );

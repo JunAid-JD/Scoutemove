@@ -5,7 +5,9 @@ import { CreateOutlined } from "@mui/icons-material";
 const Detailbox = () => {
   return (
     <div className="detailbox">
-      <label htmlFor="Description">Description</label>
+      <label htmlFor="Description">
+        Description<span className="red">*</span>
+      </label>
       <div className="input">
         <textarea
           name=""

@@ -2,11 +2,20 @@ import React from "react";
 import "./Store.css";
 import Card from "./Card";
 import Storebg from "./Storebg";
+import { Link } from "react-router-dom";
 
 const Store = () => {
   return (
     <div className="store">
       <Storebg />
+      <div className="btns">
+        <Link to="/accessories1">
+          <button>Customize your accessory</button>
+        </Link>
+        <Link to="/Acessory2">
+          <button>Customize your accessory2</button>
+        </Link>
+      </div>
 
       <div className="storecards">
         <Card image="/img/storecardimg1.png" title="Dreamscapes Travel Group" />

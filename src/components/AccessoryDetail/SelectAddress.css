@@ -1,0 +1,195 @@
+.selectAddress{
+
+}
+
+
+
+.selectAddress .selectAddressSection{
+width: 50%;
+}
+
+.selectAddress .slider{
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.selectAddress .slider .slides{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 1rem;
+    width: -webkit-fill-available;
+}
+
+
+.selectAddress .slider .slides  .sliderbox{
+    border-radius: 10px;
+        background: rgba(255, 185, 0, 0.06);
+}
+
+.selectAddress .slider .slides .sliderbox .head{
+    padding: .5rem;
+    display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #E9E9E9;
+}
+
+
+.selectAddress .slider .slides .sliderbox .head h4{
+    color: #DE1D3E;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        /* 27px */
+}
+.selectAddress .slider .slides .sliderbox .head svg{
+    color: #DE1D3E;
+}
+
+.selectAddress .slider .slides .sliderbox .detail{
+   padding: 1rem;
+}
+
+.selectAddress .slider .slides .sliderbox .detail h5{
+color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 200% */
+    padding: .5rem 0;
+}
+
+.selectAddress .slider .slides .sliderbox .detail p{
+    color: #333;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        /* 18px */
+}
+
+.selectAddress .addressDetail{
+    padding: 1rem 0;
+}
+
+.selectAddress .addressDetail  .addnewaddress{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.selectAddress .addressDetail .addnewaddress svg{
+    color: #333333;
+}
+
+
+.selectAddress .addressDetail .addnewaddress h4{
+    color: #333;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        /* 27px */
+}
+
+
+.selectAddress .addressDetail .orderdetail{
+    display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 1rem 0 0;
+}
+
+.selectAddress .addressDetail .orderdetail .total{
+    display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+}
+
+.selectAddress .addressDetail .orderdetail .total h5{
+color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 177.778% */
+}
+
+.selectAddress .addressDetail .orderdetail .total .price{
+        display: flex;
+            align-items: center;
+            gap: .5rem;
+}
+
+.selectAddress .addressDetail .orderdetail .total .price img{
+    width: 100%;
+}
+
+.selectAddress .addressDetail .orderdetail .total .price p{
+color: #484848;
+    font-size: 16.6px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    /* 108.434% */
+    letter-spacing: -0.166px;
+}
+
+
+.selectAddress .addressDetail .orderdetail button{
+    padding: 10px 20px;
+    border-radius: 5px;
+        background: #DE1D3E;
+
+        color: #FFF;
+     border: none;
+            font-size: 14.4px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 18px;
+            /* 125% */
+            letter-spacing: -0.144px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:850px) {
+
+    
+    .selectAddress .selectAddressSection {
+        width: 80%;
+    }
+    
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    .selectAddress .slider .slides {
+           width: auto;
+            /* flex-wrap: wrap;
+            justify-content: center; */
+        }
+
+                .selectAddress .addressDetail .orderdetail {
+                
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    gap: 1rem;
+                }
+}

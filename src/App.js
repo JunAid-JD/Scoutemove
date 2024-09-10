@@ -17,6 +17,13 @@ import BlogsDetail from "./components/BlogsDetail/BlogsDetail";
 import Profile from "./components/Profile/Profile";
 import Experience from "./components/Experience/Experience";
 import ExperienceDetail from "./components/Experience/ExperienceDetail";
+import Accessories1 from "./components/Accessories/Accessories1";
+import Acessory2 from "./components/Accessories/Acessory2";
+
+import HomeBlog from "./components/HomeBlog/HomeBlog";
+import TrendingArticle from "./components/TrendingArticle/TrendingArticle";
+import SimilarArticle from "./components/SimilarArticle/SimilarArticle";
+import AccessoryDetail from "./components/AccessoryDetail/AccessoryDetail";
 
 
 
@@ -47,11 +54,14 @@ function App() {
                 element={
                   <>
                     <Hero />
+                    <HomeBlog />
                     <Slider />
-                    <Article />
+                    {/* <Article /> */}
                     <Adds />
-                    <MoreArticle />
-                    <ArticleSlider />
+                    <TrendingArticle />
+                    <SimilarArticle />
+                    {/* <MoreArticle /> */}
+                    {/* <ArticleSlider /> */}
                     <Sponser />
                   </>
                 }
@@ -63,6 +73,10 @@ function App() {
               <Route path="/profile" element={<Profile />} />
               <Route path="/experience" element={<Experience />} />
               <Route path="/experienceDetail" element={<ExperienceDetail />} />
+
+              <Route path="/accessories1" element={<Accessories1 />} />
+              <Route path="/Acessory2" element={<Acessory2 />} />
+              <Route path="/accessoryDetail" element={<AccessoryDetail />} />
             </Routes>
           </DefaultLayout>
         }

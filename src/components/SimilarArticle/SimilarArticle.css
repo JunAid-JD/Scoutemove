@@ -1,0 +1,127 @@
+.similarArticle {
+    margin: 1rem 0;
+}
+
+.similarArticle .title {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.similarArticle .title h1 {
+    padding: 1rem 0;
+    border-bottom: 5px solid #DB133C;
+
+    color: #DB133C;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+
+
+
+.similarArticle .content{
+    padding: 2rem 0;
+
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+
+.similarArticle .content .contentimg{
+ flex: 1;
+}
+
+.similarArticle .content .contentimg img{
+width: 100%;
+}
+
+.similarArticle .content .contentdetail{
+    flex: 1;
+}
+
+.similarArticle .content .contentdetail h2{
+    color: #000;
+        font-size: 30.89px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 34.163px;
+        /* 110.597% */
+        text-transform: capitalize;
+}
+
+.similarArticle .content .contentdetail p{
+    color: #999;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+        padding: 1rem 0;
+}
+
+
+
+.similarArticle .content .contentdetail button {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    gap: 1rem;
+    border: none;
+    padding: 1rem 0;
+}
+ .similarArticle .content .contentdetail button a {
+    color: #000;
+        font-size: 21.714px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 35.133px;
+        /* 161.8% */
+    /* 161.8% */
+
+    border-bottom: 2px solid #DE1D3E;
+}
+
+
+.similarArticle .btn {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.similarArticle .btn button {
+    padding: 20px 12px;
+    border-radius: 15px;
+    background: rgba(219, 19, 60, 0.10);
+    border: none;
+
+    color: #DE1D3E;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 13px;
+    /* 65% */
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+
+
+
+
+
+@media screen and (max-width:850px) {
+    .similarArticle .content {
+        flex-direction: column;
+    }
+
+
+    #article2{
+        order: 2;
+    }
+}

@@ -32,14 +32,18 @@
 }
 
 .experienceDetail form select{
-    text-indent: 1rem;
+    text-indent: .5rem;
     color: #999;
         font-size: 16.174px;
         font-style: normal;
         font-weight: 500;
 
         border-radius: 6.739px;
-            border: 1.348px solid #E0E0E0;
+        border: 1.348px solid #E0E0E0;
+        margin: .5rem 0;
+
+        width: 100%;
+        padding: .5rem 0;
 
             background: #FFF;
 }
@@ -227,14 +231,21 @@ display: flex;
 .publish button{
     padding: 13.478px 21.565px;
     border-radius: 6.739px;
-        background: #DE1D3E;
+        /* background: #DE1D3E; */
         border: none;
 
-        color: #FFF;
             font-size: 19.409px;
             font-style: normal;
             font-weight: 600;
             cursor: pointer;
+}
+.publish button:first-child{
+    background-color: white;
+    color: #DE1D3E;
+}
+.publish button:last-child {
+    background-color: #DE1D3E;
+        color: #FFF;
 }
 
 

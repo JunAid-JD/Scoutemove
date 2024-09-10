@@ -1,0 +1,476 @@
+.accessoryDetail{
+    position: absolute;
+    left: 0;
+    top: 0;
+     background: rgba(0, 0, 0, 0.80);
+     width: 100%;
+     height: 1970px;
+     display: flex;
+     /* align-items: center; */
+     justify-content: center;
+     z-index: 99;
+     padding: 1rem 0;
+}
+
+.accessorySection{
+ background-color: #FFF;
+ color: black;
+ width: 50%;
+ /* height: 100%; */
+ height: fit-content;
+ padding: .5rem 1rem;
+ border-radius: 15px;
+ position: relative;
+ }
+
+
+.accessorySection .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+ .accessorySection .btn button{
+
+    border-radius: 6.315px;
+    border: none;
+        background: #DE1D3E;
+        cursor: pointer;
+
+        padding: 10.526px 40.17px;
+
+
+        color: #FFF;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 600;
+ }
+
+
+
+ .accessorySection h5{
+    color: #333;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+
+        padding: .5rem 0;
+ }
+
+
+.accessorySection .title{
+    text-align: center;
+}
+
+.accessorySection .title .close{
+    position: absolute;
+    right: 1rem;
+    top: .7rem;
+    color: #999999;
+    font-size: 28px;
+
+    cursor: pointer;
+}
+.accessorySection .title h3{
+    color: #DE1D3E;
+        font-family: Inter;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+
+.accessorySection .colors{
+    padding: .5rem 0;
+}
+.accessorySection .colors h5{
+    padding: .5rem 0;
+}
+
+
+.accessorySection .colors .colorbox{
+    display: flex;
+    align-items: center;
+     gap: 1rem;
+     flex-wrap: wrap;
+     /* padding: .2rem 0; */
+}
+
+.accessorySection .colors .colorbox .color{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+         padding: .7rem;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+.accessorySection .colors .colorbox .color svg{
+    color: white;
+    font-size: 15px;
+}
+
+
+.accessorySection .colors .colorbox .orange {
+    background-color:#FFB900 ;
+}
+.accessorySection .colors .colorbox .blue {
+    background-color: #BBC1F8;
+}
+
+.accessorySection .colors .colorbox .pink{
+            background-color: #FFD3F8;
+        }
+                .accessorySection .colors .colorbox .grey {
+                    background:linear-gradient(rgba(255, 182, 182, 1),
+                        rgba(152, 193, 133, 1)) ;
+                }
+
+        .accessorySection .colors .colorbox .green{
+            background-color: #BBD278;
+        }
+
+     .border{
+        border-radius: 50%;
+        padding: 2px;
+    }
+
+         .bordergrey{
+             border: 3px solid   rgba(152, 193, 133, 1);
+         }
+
+
+                 .bordergreen {
+                border: 3px solid #BBD278;
+                 }
+
+                     .borderorange{
+                           border: 3px solid #FFB900;
+                    }
+  .borderpink {
+      border: 3px solid #FFD3F8;
+  }
+        .borderblue {
+            border: 3px solid #BBC1F8;
+        }
+
+
+
+
+.accessorySection .sizes{
+    /* padding: .5rem 0; */
+}
+
+.accessorySection .sizes .sizeboxs{
+    display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: .5rem 0;
+        flex-wrap: wrap;
+}
+
+
+
+.accessorySection .sizes .sizeboxs .box{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: .5rem;
+    border-radius: 6px;
+        background: #F3F3F3;
+}
+
+.accessorySection .sizes .sizeboxs .box svg{
+    color: white;
+    font-size: 15px;
+}
+
+.accessorySection .sizes .sizeboxs .box  p{
+    color: #726C6C;
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+}
+
+
+.accessorySection .sizes .sizeactive {
+    background: #FFB900 !important;
+}
+
+.accessorySection .sizes .sizeactive>p {
+    color: #FFF !important;
+}
+
+
+.accessorySection .title .back{
+    display: flex;
+    align-items: center;
+    /* gap: .3rem; */
+
+    position: absolute;
+        left: 1rem;
+        top: .7rem;
+        color: #999999;
+    
+        cursor: pointer;
+}
+
+
+.accessorySection .title .back svg{
+        font-size: 28px;
+}
+
+.accessorySection .title .back p{
+    font-size: 18px;
+}
+
+.accessorySection .clothes {
+    padding: 3rem 3rem .5rem;
+}
+
+.accessorySection .clothes .clothbox{
+    display: flex;
+        align-items: center;
+        gap: 1rem;
+        /* padding: 1rem 0; */
+        flex-wrap: wrap;
+}
+
+.accessorySection .clothes .clothbox .box{
+width: 132px;
+    height: 132px;
+
+    border-radius: 10px;
+        background: rgba(234, 234, 234, 0.50);
+}
+
+.accessorySection .clothes .clothbox .box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.accessorySection .clothes .clothbox .box:last-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.accessorySection .clothes .clothbox .box svg {
+    color: rgba(153, 153, 153, 1);
+}
+.accessorySection .clothes .clothbox .box p{
+    color: #999;
+        text-align: center;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+}
+
+
+
+
+
+
+.accessorySection .totalbox{
+    display: flex;
+    align-items: start;
+    background: #FBFBFB;
+    padding: 1rem 3rem;
+   gap: 1rem;
+}
+
+.accessorySection .totalbox .totalitem{
+    width: 200px;
+        /* height: 348px; */
+}
+
+.accessorySection .totalbox .totalitem img{
+    width: 100%;
+}
+
+.accessorySection .totaldetail {
+
+    width: 100%;
+}
+
+.accessorySection .totaldetail .itemList{
+  border-bottom:  2px solid #D7D7D7;
+}
+
+.accessorySection .totaldetail .itemList .item{
+    display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: .5rem;
+        gap: 1rem;
+}
+
+.accessorySection .totaldetail .itemList .item h3{
+    color: #999;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+}
+
+.accessorySection .totaldetail .itemList .item .price{
+display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.accessorySection .totaldetail .itemList .item .price img{
+    width: 20px;
+}
+
+
+.accessorySection .totaldetail .itemList .item .price p{
+color: #484848;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    /* 108.434% */
+    letter-spacing: -0.166px;
+}
+
+.accessorySection .totaldetail .itemTotal{
+padding:  .2rem;
+}
+.accessorySection .totaldetail .itemTotal button{
+border-radius: 9px;
+    background: #DE1D3E;
+    width: 100%;
+    border: none;
+    padding: .5rem 0;
+
+    color: #FFF;
+     
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24.261px;
+        /* 125% */
+        letter-spacing: -0.194px;
+}
+
+.accessorySection .totaldetail .totalbtn{
+border-radius: 10px;
+    background: rgba(222, 29, 62, 0.10);
+    /* height: 63px; */
+
+    display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: .5rem;
+
+        margin: .5rem 0;
+}
+.accessorySection .totaldetail .totalbtn h3{
+    color: #DE1D3E;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+
+.accessorySection .totaldetail .totalbtn .totalprice{
+display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.accessorySection .totaldetail .totalbtn .totalprice p{
+    color: #484848;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25.143px;
+        /* 108.434% */
+        letter-spacing: -0.232px;
+}
+
+.accessorySection .totaldetail .totalbtn .totalprice img{
+width: 100%;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:850px) {
+    .accessorySection {
+         width: 80%;
+    }
+        .accessorySection .title .back svg {
+            font-size: 20px;
+        }
+                .accessorySection .title .close {
+                    font-size: 20px;
+                }
+
+         .accessorySection .title .back p {
+             font-size: 15px;
+         }
+
+                 .accessorySection .clothes {
+                     padding: 3rem 0rem 0.5rem;
+                 }
+
+           .accessorySection .title h3 {
+               font-size: 18px;
+           }
+}
+
+
+@media screen and (max-width:768px) {
+    .accessorySection .totalbox {
+         
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+}
+
+@media screen and (max-width:600px) {
+
+
+.accessorySection h5 {
+    font-size: 15px;
+}
+
+.accessoryDetail {
+    padding: 4rem 0;
+}
+}
+
+
+@media screen and (max-width:500px) {
+.accessorySection .totaldetail .itemTotal {
+        padding: 1rem 0;
+    }
+        .accessorySection .totaldetail .itemList .item {
+            padding: 1rem 0;
+        }
+                .accessorySection .totalbox {
+                    padding: 1rem 0;
+                }
+
+
+      .accessoryDetail{
+        height: 2650px;
+      }          
+}

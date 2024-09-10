@@ -53,6 +53,28 @@ color: #BBB;
 }
 
 
+
+.store .btns{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-wrap: wrap;
+    gap: 1rem;
+        padding: 1rem 4rem 0;
+}
+.store .btns button{
+    border-radius: 10px;
+        border: 1px solid #DE1D3E;
+        background: #FFF;
+        padding: 20px;
+
+        color: #DE1D3E;
+            font-size: 18.65px;
+            font-style: normal;
+            font-weight: 700;
+            cursor: pointer;
+}
+
 .store .storecards{
     display: flex;
     align-items: flex-start;

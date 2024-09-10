@@ -1,0 +1,64 @@
+.addAddressSection{
+    width: 70%;
+    text-align: center;
+}
+
+.addAddressSection .form{
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem 1rem;
+}
+
+.addAddressSection button{
+    margin: 1rem 0 2rem;
+    border-radius: 5px;
+        background: #DE1D3E;
+        padding: 10px 20px;
+
+       border: none;
+
+    color: #FFF;
+       
+        font-size: 14.4px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 18px;
+        /* 125% */
+        letter-spacing: -0.144px;
+    }
+
+    .addAddressSection .form .block{
+        width: 278.782px;
+                text-align: start;
+    }
+
+        .addAddressSection .form .block label{
+            display: block;
+            color: #000;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 32px;
+                /* 177.778% */
+        }
+
+
+        .addAddressSection .form .block input,select{
+            color: #858585;
+width: 278.67px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 5px;
+        border: 1px solid #ECECEC;
+        text-indent: .5rem ;
+    outline: none;
+        }
+
+
+                .addAddressSection .form .block 
+                select {
+                background-color: #F3F3F3;
+                }

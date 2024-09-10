@@ -1,0 +1,127 @@
+.trendingArticle{
+    margin: 1rem 0;
+}
+
+.trendingArticle .title{
+   display: flex;
+   justify-content: start;
+   align-items: center;
+}
+.trendingArticle .title h1{
+padding: 1rem 0;
+    border-bottom: 5px solid #DB133C;
+
+color: #DB133C;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.trendingArticle .cards{
+    padding: 1.5rem 0;
+
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.trendingArticle .cards .card{
+    width: 350px;
+    border-radius: 12px;
+    background: #FAFAFA;
+
+
+}
+.trendingArticle .cards .card .image{
+
+}
+.trendingArticle .cards .card .image img{
+    width: 100%;
+}
+
+.trendingArticle .cards .card .content{
+    padding: 1rem 2rem;
+}
+
+
+.trendingArticle .cards .card .content h2{
+color: #000;
+    font-size: 29.692px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 37.939px;
+    /* 127.778% */
+    text-transform: capitalize;
+}
+
+.trendingArticle .cards .card .content p{
+color: #000;
+    font-family: Noto Sans;
+    font-size: 13.196px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.352px;
+    /* 161.8% */
+}
+
+
+.trendingArticle .cards .card .content  button{
+    display: flex;
+    align-items: center;
+background: transparent;
+    gap: 1rem;
+border: none;
+padding: 1rem 0;
+}
+
+.trendingArticle .cards .card .content button a{
+    color: #000;
+        font-family: Noto Sans;
+        font-size: 13.196px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 21.352px;
+        /* 161.8% */
+
+        border-bottom: 2px solid #DE1D3E;
+}
+
+.trendingArticle .btn{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.trendingArticle .btn button{
+    padding: 20px 12px;
+    border-radius: 15px;
+        background: rgba(219, 19, 60, 0.10);
+        border: none;
+
+        color: #DE1D3E;
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 13px;
+            /* 65% */
+            text-transform: capitalize;
+            cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width:850px) {
+.trendingArticle .cards {
+    flex-wrap: wrap;
+}
+}
+
+
+@media screen and (max-width:768px) {
+.trendingArticle .cards {
+    justify-content: center;
+}
+}
