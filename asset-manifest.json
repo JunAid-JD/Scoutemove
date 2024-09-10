@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Scoutemove/static/css/main.edfdbaf5.css",
+    "main.js": "/Scoutemove/static/js/main.1d1343b0.js",
+    "static/media/bg.png": "/Scoutemove/static/media/bg.a9ed385e56dc52605a94.png",
+    "index.html": "/Scoutemove/index.html",
+    "main.edfdbaf5.css.map": "/Scoutemove/static/css/main.edfdbaf5.css.map",
+    "main.1d1343b0.js.map": "/Scoutemove/static/js/main.1d1343b0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.edfdbaf5.css",
+    "static/js/main.1d1343b0.js"
+  ]
+}
